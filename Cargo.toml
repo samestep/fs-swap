@@ -1,10 +1,10 @@
 [package]
 name = "fs-swap"
-version = "0.2.4"
+version = "0.2.5"
 authors = ["debris <marek.kotewicz@gmail.com>"]
 description = "Cross-platform implementation of path swap"
 license = "MIT"
-homepage = "https://github.com/debris/fs-swap"
+homepage = "https://github.com/paritytech/fs-swap"
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2.4"
