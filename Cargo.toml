@@ -7,7 +7,7 @@ license = "MIT"
 homepage = "https://github.com/paritytech/fs-swap"
 
 [target.'cfg(unix)'.dependencies]
-libc = "0.2.4"
+libc = "0.2.90"
 
 [target.'cfg(target_os = "macos")'.dependencies]
 libloading = "0.5"
